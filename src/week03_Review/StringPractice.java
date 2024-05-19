@@ -1,4 +1,4 @@
-package week04_Review.practice_tasks;
+package week03_Review;
 
 import java.util.Scanner;
 
