@@ -1,4 +1,4 @@
-package week08_Review.practice_tasks;
+package week08_Review;
 
 import java.util.ArrayList;
 import java.util.Arrays;
