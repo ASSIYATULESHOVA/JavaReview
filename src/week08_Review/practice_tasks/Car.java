@@ -1,4 +1,4 @@
-package week08_Review;
+package week08_Review.practice_tasks;
 
 public class Car {
 
