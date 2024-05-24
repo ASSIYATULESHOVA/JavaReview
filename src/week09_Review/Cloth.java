@@ -56,4 +56,15 @@ public class Cloth {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+
+    public String toString() {
+        return "Cloth{" +
+                "type='" + type + '\'' +
+                ", color='" + color + '\'' +
+                ", material='" + material + '\'' +
+                ", size=" + size +
+                ", quantity=" + quantity +
+                '}';
+    }
 }
