@@ -38,6 +38,7 @@ public class Cloth {
     }
 
     public void setMaterial(String material) {
+        if(material.equalsIgnoreCase("Cotton"))
         this.material = material;
     }
 
