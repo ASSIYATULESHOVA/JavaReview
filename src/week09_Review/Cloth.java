@@ -57,7 +57,7 @@ public class Cloth {
         this.quantity = quantity;
     }
 
-
+    @Override
     public String toString() {
         return "Cloth{" +
                 "type='" + type + '\'' +
