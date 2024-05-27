@@ -37,6 +37,7 @@ public class Cloth {
         return material;
     }
 
+
     public void setMaterial(String material) {
         this.material = material;
     }
