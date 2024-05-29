@@ -30,7 +30,6 @@ public class Cloth {
     }
 
     public void setColor(String color) {
-        color.equalsIgnoreCase("Black");
         this.color = color;
     }
 
