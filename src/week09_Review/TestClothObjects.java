@@ -13,6 +13,7 @@ public class TestClothObjects {
 
         System.out.println(cloth1);
         System.out.println(cloth2);
+        System.out.println(cloth3);
 
 
     }
