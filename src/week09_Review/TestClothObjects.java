@@ -10,6 +10,7 @@ public class TestClothObjects {
 
         Cloth cloth3 = new Cloth("Pants","Black","Polyester",'L',20);
 
+        Cloth cloth4 = new Cloth("Jeans","Blue","Denim",'L',20);
 
         System.out.println(cloth1);
         System.out.println(cloth2);
