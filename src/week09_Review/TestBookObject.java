@@ -7,6 +7,11 @@ public class TestBookObject {
 
         Book book2 = new Book("Hunter","Joe Belousov",1999);
 
+        Book book3 = new Book("Api","Amazon",2024);
+        Book book4 = new Book("Api","Amazon",2024);
+
+
+
 
         System.out.println(book1);
         System.out.println(book2);
