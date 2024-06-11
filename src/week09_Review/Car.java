@@ -4,11 +4,11 @@ public class Car {
 
 
     private String made, model, color;
-    private short year;
+    private int year;
     private double price;
 
 
-    public Car(String made, String model, String color, short year, double price) {
+    public Car(String made, String model, String color, int year, double price) {
         this.made = made;
         this.model = model;
         this.color = color;
@@ -16,7 +16,16 @@ public class Car {
         this.price = price;
     }
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "made='" + made + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
 
     public String getMade() {
         return made;
@@ -42,7 +51,7 @@ public class Car {
         this.color = color;
     }
 
-    public short getYear() {
+    public int getYear() {
         return year;
     }
 
