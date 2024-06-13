@@ -30,6 +30,7 @@ public class Car {
                 '}';
     }
 
+
     public String getMade() {
         return made;
     }
