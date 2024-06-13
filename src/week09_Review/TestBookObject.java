@@ -8,7 +8,8 @@ public class TestBookObject {
         Book book2 = new Book("Hunter","Joe Be",1999);
 
         Book book3 = new Book("Api","Amazon",2024);
-        Book book4 = new Book("Api","Amazon",2024);
+        Book book4 = new Book("Secret","Amazon",1999);
+
 
 
         System.out.println(book1);
