@@ -1,8 +1,11 @@
 package week09_Review;
 
+import lombok.Setter;
+
 public class Car {
 
 
+    @Setter
     private String made, model, color;
     private int year;
     private double price;
@@ -31,16 +34,8 @@ public class Car {
         return made;
     }
 
-    public void setMade(String made) {
-        this.made = made;
-    }
-
     public String getModel() {
         return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
     }
 
     public String getColor() {
