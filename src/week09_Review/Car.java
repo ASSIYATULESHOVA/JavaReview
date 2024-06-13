@@ -22,11 +22,11 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "made='" + made + '\'' +
-                ", model='" + model + '\'' +
-                ", color='" + color + '\'' +
-                ", year=" + year +
-                ", price=" + price +
+                "made = " + made + '\'' +
+                ", model = " + model + '\'' +
+                ", color = " + color + '\'' +
+                ", year = " + year +
+                ", price = " + price +
                 '}';
     }
 

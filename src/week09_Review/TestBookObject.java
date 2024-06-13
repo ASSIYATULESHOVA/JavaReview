@@ -10,8 +10,6 @@ public class TestBookObject {
         Book book3 = new Book("Api","Amazon",2024);
         Book book4 = new Book("Secret","Amazon",1999);
 
-
-
         System.out.println(book1);
         System.out.println(book2);
         System.out.println(book3);
